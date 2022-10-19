@@ -1,0 +1,5 @@
+---
+- name: gather-facts
+  tasks:
+    - name: gather-facts
+      ansible.builtin.setup:
